@@ -1,0 +1,176 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-image:url(../images/pattern.png);
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.header{
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    height: 70px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.top{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.yourname{
+    width: 150px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    height: 30px;
+    font-weight: bold;
+    padding:20px;
+    font-size: 22px;
+    float:left;
+}
+.mainlink{
+    float: right; 
+    width: 50px;
+    margin-top: 25px;
+    padding: 0 25px 0 20px;
+}
+
+.about, .portfolio{
+    border-right: 1px solid lightgrey;
+}
+.about{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+}
+a:hover{
+    color:#4aaaa5;
+    font-weight: bold;
+}
+
+.aboutme{
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    width: 910px;
+    margin: 30px auto;
+    padding: 25px;
+    overflow: auto;
+}
+
+.description{
+    padding-top: 20px;
+    line-height: 2;
+}
+
+h2{
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 3px solid #cccccc;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profilepic{
+    float:left;
+    width: 200px;
+    height: 150px;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+.p1{
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color:#666666;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 30px;
+    height: 20px;
+    border-top: 6px solid #4aaaa5;
+    font-size: 10px;
+    position:absolute;
+    bottom: 0;
+    left:0;
+}
+
+.box{
+    position: relative;
+    float: left;
+    width: 30%;
+    margin: 20px 20px 20px 0px;
+}
+
+.images{
+    width: 100%;
+    height: 200px;
+}
+
+
+.titles{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding:15px 0px 15px 0px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    position: absolute;
+    bottom: 30px;
+    opacity: 0.9;
+}
+
+.titles:hover{
+    color: #eeeeee;
+    opacity: 1.0;
+}
+
+form{
+    padding-top:10px;
+}
+.input_text{
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+}
+
+#message{
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+}
+
+.submit{
+    margin-top: 20px;
+    width:150px;
+    background-color:#4aaaa5;
+    color: #eeeeee;
+    padding-top:10px;
+    padding-bottom:30px;
+    font-size:18px;
+}
+::placeholder{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+
