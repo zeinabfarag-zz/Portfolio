@@ -1,3 +1,5 @@
+/*  CSS for all HTML Files */
+
 html{
     position: relative;
     min-height: 100%;
@@ -56,11 +58,6 @@ section{
     overflow: auto;
 }
 
-#description{
-    padding-top: 20px;
-    line-height: 2;
-}
-
 h2{
     padding-bottom: 20px;
     color: #4aaaa5;
@@ -68,17 +65,6 @@ h2{
     border-bottom: 3px solid #cccccc;
     font-size: 22px; 
     font-weight: bold; 
-}
-
-#profilepic{
-    float:left;
-    width: 200px;
-    height: 150px;
-    margin: 6px 15px 0px 0px;
-}
-
-p{
-    padding-bottom: 20px;
 }
 
 footer{
@@ -94,6 +80,26 @@ footer{
     left:0;
 }
 
+/* About Page CSS  */
+
+#description{
+    padding-top: 20px;
+    line-height: 2;
+}
+
+#profilepic{
+    float:left;
+    width: 200px;
+    height: 150px;
+    margin: 6px 15px 0px 0px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+/* Portfolio Page CSS */
+
 .box{
     position: relative;
     float: left;
@@ -105,7 +111,6 @@ footer{
     width: 100%;
     height: 200px;
 }
-
 
 .titles{
     background-color:#4aaaa5;
@@ -123,6 +128,8 @@ footer{
     color: #eeeeee;
     opacity: 1.0;
 }
+
+/* Contact Page CSS */
 
 h3{
     font-size: 18px;
