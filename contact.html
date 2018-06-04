@@ -7,46 +7,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-    <div class="header">
-        <div class="top">
-            <div class="yourname">
-                <h1>Zeinab Farag</h1>
-            </div>
-            <div class="mainlink contact">
-                <a href="contact.html">Contact</a>
-            </div>
-            <div class="mainlink portfolio">
-                <a href="portfolio.html">Portfolio</a>
-            </div>
-            <div class="mainlink about">
+    <header>
+        <div id="top">
+            <h1>Zeinab Farag</h1>
+            <nav>
                 <a href="index.html">About</a>
-            </div>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="maincontent">
+    <section>
         <h2>Contact</h2>
 
         <form action="#">
 
-            <div class="input_text">Name </div>
+            <h3> Name </h3>
             <input type="text" name="fullname" placeholder="John Smith">
 
-            <div class="input_text">Email </div>
+            <h3>Email </h3>
             <input type="email" name="email" placeholder="example@gmail.com" >
 
-            <div class="input_text">Message </div>
+            <h3>Message </h3>
             <textarea id="message" name="message"></textarea>
 
-            <input type="submit" value="Submit" class="submit">
+            <input type="submit" value="Submit" id="submit">
 
         </form>
-    </div>
+    </section>
 
-    <div class="footer">
+    <footer>
         Copyright ©
-    </div>
+    </footer>
     
 </body>
 </html>
