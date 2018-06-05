@@ -49,7 +49,7 @@ a:hover{
     font-weight: bold;
 }
 
-section{
+#maincontent{
     background-color: #ffffff;
     border: solid 1px #dddddd;
     width: 910px;
