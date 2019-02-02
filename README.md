@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Overview
-A Simple Static Website built using HTML and raw CSS
+A simple static website built using HTML and raw CSS
 
 ## Website
 
